@@ -39,6 +39,7 @@ typedef struct data
 	int counter;
 	char **_environ;
 	char *pid;
+	char *_getenv(char *name);
 } data_shell;
 
 /**
